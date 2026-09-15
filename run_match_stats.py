@@ -8,9 +8,9 @@ identical to an actual game. Colors are swapped every round so both players
 spend an equal number of games as White and Black.
 
 Usage:
-    python run_match_stats.py player1.py player2.py 10
-    python run_match_stats.py player1.py player2.py 10 --no-alternate
-    python run_match_stats.py player1.py player2.py 10 --timeout 2400
+    python run_match_stats.py player1.py player2.py number_of_rounds
+    python run_match_stats.py player1.py player2.py number_of_rounds --no-alternate
+    python run_match_stats.py player1.py player2.py number_of_rounds --timeout 2400
 """
 
 from __future__ import annotations
